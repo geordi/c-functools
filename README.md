@@ -6,7 +6,7 @@ Very simple functions operating on C arrays to mimic functional style of program
 Example Usage
 -------------
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 #include "functools.h"
