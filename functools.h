@@ -20,9 +20,6 @@ namespace ft
     void map_scalar_i( int value, int *array, const int len );
 
     template <typename T>
-    T max_f( T x, T y ) CONST_FN;
-
-    template <typename T>
     bool is_in( const T val, const std::vector<T>& vec ) PURE_FN;
 
     template <typename T>
