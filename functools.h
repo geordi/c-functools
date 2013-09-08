@@ -29,12 +29,14 @@ namespace ft
     T sum( T x, T y ) CONST_FN;
 
     template <typename T>
-    T min_f( T x, T y ) CONST_FN;
+    T min( T x, T y ) CONST_FN;
 
     template <typename T>
-    T max_f( T x, T y ) CONST_FN;
+    T max( T x, T y ) CONST_FN;
+
 
     // implementation
+
 
     template <typename T>
     void map_scalar( T value, T *array, const int len )
