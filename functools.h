@@ -12,7 +12,7 @@ namespace ft
     typedef float (*map_f_func)( float *arg );
     typedef int (*map_i_func)( void *arg );
 
-    typedef REAL (*reduce_f_func)( REAL a, REAL b );
+    typedef float (*reduce_f_func)( float a, float b );
 
     void map_f( map_f_func map_fn, float *array, const int len );
     void map_i( map_i_func map_fn, int *array, const int len );

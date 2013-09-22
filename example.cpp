@@ -8,9 +8,9 @@
 int main( int argc, char **argv )
 {
     int *array_int = new int[ N ];
-    REAL *array_real = new REAL[ N ];
-    REAL sum = REALV( 0.0 );
-    REAL array_max = REALV( 0.0 );
+    float *array_real = new float[ N ];
+    float sum = 0.0f;
+    float array_max = 0.0f;
 
     // Set int array elements to 0.
     ft::map_scalar( 0, array_int, N );
@@ -24,12 +24,12 @@ int main( int argc, char **argv )
 
 
     // Set array elements to 1.0
-    ft::map_scalar_f( REALV( 1.0 ), array_real, N );
+    ft::map_scalar_f( 1.0f, array_real, N );
 
     // Get the sum of the array.
     for ( int i = 0; i < N; i++ )
     {
-        array_real[ i ] = REALV( i + 1 );
+        array_real[ i ] = static_cast<float>( i + 1.0f );
     }
 
     printf( "Array: " );
