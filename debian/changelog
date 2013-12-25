@@ -1,0 +1,5 @@
+c-functools (0.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Jan Gaura <geordi@valkyrie>  Sat, 07 Dec 2013 18:04:55 +0100

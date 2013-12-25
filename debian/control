@@ -1,0 +1,21 @@
+Source: c-functools
+Priority: extra
+Maintainer: Jan Gaura <geordi@valkyrie>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: http://github.com/geordi/c-functools
+
+Package: c-functools-dev
+Section: libdevel
+Architecture: any
+Depends: c-functools1 (= ${binary:Version})
+Description: Simple functions operating on C arrays to mimic functional programming - dev package
+ Very simple functions operating on C arrays to mimic functional style of programming.
+
+Package: c-functools1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple functions operating on C arrays to mimic functional programming
+ Very simple functions operating on C arrays to mimic functional style of programming.
